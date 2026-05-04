@@ -333,7 +333,7 @@ spline-viewer { width: 100%; height: 100%; display: block; }
    ════════════════════════════════════════════════════ */
 
 // 1. UNIFIED CURRICULUM (Grade 1 - 12 Continuous Flow)
-const dataSets = {
+windows.dataSets = {
   Physics:[
     "Measurement and Units", "Scalars and Vectors", "Kinematics (1D and 2D Motion)", "Newton's Laws of Motion", 
     "Friction and Drag Dynamics", "Work, Energy, and Power", "Conservation of Energy", "Center of Mass", 
@@ -398,7 +398,7 @@ const dataSets = {
 };
 
 // 2. 3D COSMOS DATA (E-Book Style Detailed HTML Strings)
-const COSMOS_DATA = {
+windows.COSMOS_DATA = {
   solar: { 
     title: "Solar System Dynamics", 
     sfId: "600b747a80934238b7183b6c70b991e4", 
@@ -478,7 +478,7 @@ const COSMOS_DATA = {
 };
 
 // 3. 3D ANATOMY DATA (E-Book Style Detailed HTML Strings)
-const ANATOMY_DATA = {
+windows.ANATOMY_DATA = {
   heart: { 
     title: "Anatomical Heart", 
     sfId: "e48637d3399a4e5184bdf169929dc36e", 
@@ -558,7 +558,7 @@ const ANATOMY_DATA = {
 };
 
 // 4. HOSPITAL DATA (E-Book Style with NEPAL CONTEXT)
-const HOSPITAL_DATA = {
+windows.HOSPITAL_DATA = {
   icu: { 
     title: "Intensive Care Unit (ICU)", 
     sfId: "eaca09ed02ba401f8728113e17a2ce3b", 
